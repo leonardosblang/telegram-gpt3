@@ -19,7 +19,7 @@ After you have setup the bot, you can start using it by messaging it on Telegram
 
 The bot will respond to your messages using OpenAI's GPT-3 API.
 
-## Enjoy your conversations! 🤗🤖
+
 
 ## Installation
 
@@ -40,5 +40,6 @@ python main.py
 
 This GPT-3 Telegram Bot was created by [Leonardo Lang](https://github.com/leonardosblang).
 
+## Enjoy your conversations! 🤗🤖
 
 
