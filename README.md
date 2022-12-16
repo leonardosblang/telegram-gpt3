@@ -1,6 +1,6 @@
 ![Bot Picture](/images/bot.png)
 # GPT-3 Telegram Bot 
-![Telegram Bot with GPT-3](/images/índice.jpg)
+![Telegram Bot with GPT-3](<img src="/images/bot.png" width="256" height="256" />)
 This bot is powered by OpenAI's GPT-3 API to provide the ultimate communication experience.
 
 ## Requirements
