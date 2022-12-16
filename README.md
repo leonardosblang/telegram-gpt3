@@ -3,6 +3,7 @@
 # GPT-3 Telegram Bot 
 
 ![Telegram Bot with GPT-3](/images/índice.jpg)
+
 This bot is powered by OpenAI's GPT-3 API to provide the ultimate communication experience.
 
 ## Requirements
