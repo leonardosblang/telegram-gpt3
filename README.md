@@ -47,7 +47,7 @@ This GPT-3 Telegram Bot was created by [Leonardo Lang](https://github.com/leonar
 ## Enjoy your conversations! 🤗🤖
 
 ## News
-* 18/12/2002
+* 18/12/2022
  Added option to load different models
  
 ```
