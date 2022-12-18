@@ -5,22 +5,24 @@ import requests
 import openai
 import argparse
 
+TOKEN = "your_bot_token"
+model_picked = "text-davinci-003"
+
 parser = argparse.ArgumentParser()
-parser.add_argument('--model', required=True, help='Name of the model to use')
+parser.add_argument('--model', required=True, help='The string to pick')
 args = parser.parse_args()
 
-# Add your models here then run python --model your_model_name
-models = {
-    'text-davinci-003': Davinci(),
-    'text-embedding-ada-002': Ada()   
-}
 
+if args.string == "davinci":
+ model_picked = "text-davinci-003"
+ print("Davinci picked")
+elif args.string == "ada":
+ model_picked = "text-embedding-ada-002"
+ print("Ada picked")
+else:
+ model_picked = "text-davinci-003"
+ print("Nothing was picked, defaulting to Davinci")
 
-model_picked = models[args.model_name]
-
-
-
-TOKEN = "your_bot_token"
 
 app = Flask(__name__)
 
