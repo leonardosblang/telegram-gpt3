@@ -17,11 +17,11 @@ if args.string == "davinci":
  model_picked = "text-davinci-003"
  print("Davinci picked")
 elif args.string == "ada":
- model_picked = "text-embedding-ada-002"
+ model_picked = "text-ada-001"
  print("Ada picked")
 else:
  model_picked = "text-davinci-003"
- print("Nothing was picked, defaulting to Davinci")
+ print("Nothing found with that name, defaulting to Davinci")
 
 
 app = Flask(__name__)
