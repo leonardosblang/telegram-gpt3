@@ -3,7 +3,25 @@ from flask import request
 from flask import Response
 import requests
 import openai
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--model', required=True, help='Name of the model to use')
+args = parser.parse_args()
+
+# Define a dictionary mapping model names to model objects
+models = {
+    'text-davinci-003': Davinci(),
+    'text-embedding-ada-002': Ada()   
+}
+
+# Get the model object based on the model name
+model = models[args.model_name]
+
+
+
 TOKEN = "your_bot_token"
+
 app = Flask(__name__)
 
 
