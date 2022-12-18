@@ -16,7 +16,7 @@ models = {
 }
 
 
-model = models[args.model_name]
+model_picked = models[args.model_name]
 
 
 
@@ -55,7 +55,7 @@ def index():
         chat_id, txt = parse_message(msg)
 
         r = openai.Completion.create(
-            model="text-davinci-003",
+            model=model_picked,
             prompt=txt,
             temperature=0.7,
             max_tokens=256,
